@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PFT</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_incorrect">Nombre de usuario o contraseña incorrecta</string>
+    <string name="form_incorrect">ERROR - Listar Formularios</string>
+
+</resources>

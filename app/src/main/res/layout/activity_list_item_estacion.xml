@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtListID"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:text="ID:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtListNombre"
+            android:layout_width="305dp"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:text="NOMBRE:"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtListDesc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:text="DESCRIPCIÓN:"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtListDepartamento"
+            android:layout_width="229dp"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:text="DEPARTAMENTO:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtListCiudad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:text="CIUDAD:"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtListLat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:text="LATITUD:"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtListLng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:text="LONGITUD:"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
